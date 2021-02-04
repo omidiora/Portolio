@@ -10,9 +10,8 @@ class HomePageController extends Controller
     //
     public function index()
     {
-        $user =Home::all();
 
-        return view('welcome', ['user'=>$user]);
+        return view('welcome');
     }
 
 
